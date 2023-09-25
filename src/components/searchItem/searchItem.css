@@ -1,0 +1,68 @@
+.searchItem{
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.siTitle{
+    font-size: 20px;
+    color: #000000;
+}
+
+.siDetails{
+    flex:1;
+}
+
+.siDistance{
+    font-size: 12px;
+}
+
+.siTaxiOp{
+    font-size: 12px;
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.siSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.siFeatures{
+    font-size: 12px;
+}
+
+.siCancelOp{
+    font-size: 12px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.detailsButton{
+    padding: 5px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-weight: 200;
+    cursor: pointer;
+}

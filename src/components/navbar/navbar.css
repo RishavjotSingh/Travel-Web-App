@@ -1,0 +1,28 @@
+.navbar {
+    height: 50px;
+    background-color: #FFD700;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: #000000;
+    display: flex;              /* Items in line */
+    align-items: center;        /* Vertically */
+    justify-content: space-between;          /* Moving the second item (buttons) towards the end (right) of the container */
+}
+
+.logo {
+    font-weight: 500;
+}
+
+.navButton {
+    margin-left: 20px;     /* To separate the login and register button a bit */
+    border: none;
+    padding: 5px 10px;      /* Vertical and Horizontal */
+    cursor: pointer;
+    color: white;
+    background-color: #000000;
+}
