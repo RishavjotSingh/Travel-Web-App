@@ -13,9 +13,9 @@ const Home = () => {
             <Header/>
             <div className="homeContainer">
                 <Featured/>
-                <h1 className='homeTitle'>Browse by Property Type</h1>
+                <h1 className='homeTitle'>Find Your Ideal Vacation Stay</h1>
                 <PropertyList/>
-                <h1 className='homeTitle'>Top Ratings</h1>
+                <h1 className='homeTitle'>Highly Rated</h1>
                 <FeaturedProperties/>
             </div>
         </div>
